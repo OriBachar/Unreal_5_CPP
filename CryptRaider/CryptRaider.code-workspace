@@ -10,7 +10,15 @@
 		}
 	],
 	"settings": {
-		"typescript.tsc.autoDetect": "off"
+		"typescript.tsc.autoDetect": "off",
+		"files.associations": {
+			"*.ipp": "cpp",
+			"__locale": "cpp",
+			"chrono": "cpp",
+			"codecvt": "cpp",
+			"xlocale": "cpp",
+			"valarray": "cpp"
+		}
 	},
 	"extensions": {
 		"recommendations": [

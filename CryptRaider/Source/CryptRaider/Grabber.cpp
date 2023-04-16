@@ -21,9 +21,6 @@ UGrabber::UGrabber()
 void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
-	
 }
 
 
@@ -32,12 +29,30 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	UPhysicsHandleComponent* physicsHandle = GetPhysicsHandle();
 
+	if(!physicsHandle)
+	{
+		return;
+	}
+
+	FVector targetLocation = GetComponentLocation() + GetForwardVector() * holdDistance;
+
+	physicsHandle->SetTargetLocationAndRotation(targetLocation, GetComponentRotation());
 
 }
 
 void UGrabber::Grab()
 {
+
+	UPhysicsHandleComponent* physicsHandle = GetPhysicsHandle();
+
+	if(!physicsHandle)
+	{
+		return;
+	}
+
+
 	FVector start = GetComponentLocation();
 
 	FVector end = start + GetForwardVector() * maxGrabDistance;
@@ -59,14 +74,14 @@ void UGrabber::Grab()
 
 	if(hasHit)
 	{
-		AActor* hitActor = hitResult.GetActor();
-
-		UE_LOG(LogTemp, Display, TEXT("Hit actor:%s"), *hitActor->GetActorNameOrLabel());
+		physicsHandle->GrabComponentAtLocationWithRotation(
+			hitResult.GetComponent(),
+			NAME_None,
+			hitResult.ImpactPoint,
+			GetComponentRotation()
+		);
 	}
-	else
-	{
-		UE_LOG(LogTemp, Display, TEXT("No actor hit"));
-	}
+	
 }
 
 void UGrabber::Release()
@@ -74,3 +89,15 @@ void UGrabber::Release()
 	UE_LOG(LogTemp, Display, TEXT("Released grabber"));
 }
 
+UPhysicsHandleComponent* UGrabber::GetPhysicsHandle() const
+{
+	UPhysicsHandleComponent* result = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+
+	if(!result)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Grabber requires a UPhysicsHandleComponent"));
+	}
+
+	return result;
+
+}
