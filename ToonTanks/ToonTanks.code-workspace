@@ -16,7 +16,8 @@
 			"regex": "cpp",
 			"iterator": "cpp",
 			"memory": "cpp",
-			"xutility": "cpp"
+			"xutility": "cpp",
+			"*.rh": "cpp"
 		}
 	},
 	"extensions": {
