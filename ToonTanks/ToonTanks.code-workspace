@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "ToonTanks",
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"files.associations": {
+			"bitset": "cpp",
+			"forward_list": "cpp",
+			"future": "cpp",
+			"list": "cpp",
+			"random": "cpp",
+			"regex": "cpp",
+			"iterator": "cpp",
+			"memory": "cpp",
+			"xutility": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}
