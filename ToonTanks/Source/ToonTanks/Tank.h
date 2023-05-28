@@ -21,14 +21,17 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* playerInputComponent) override;
 
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	void HandleDestruction();
+
+	APlayerController* GetTankPlayerController() const { return tankPlayerController; }
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
@@ -43,7 +46,7 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float turnRate = 120.f;
 
-	APlayerController* playerControllerRef;
+	APlayerController* tankPlayerController;
 
 	void Move(float value);
 

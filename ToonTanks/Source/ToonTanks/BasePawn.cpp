@@ -54,3 +54,8 @@ void ABasePawn::Fire()
 
 	projectile->SetOwner(this);
 }
+
+void ABasePawn::HandleDestruction()
+{
+	
+}
