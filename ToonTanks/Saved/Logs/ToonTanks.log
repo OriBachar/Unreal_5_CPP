@@ -1773,3 +1773,128 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.28-12.36.02:410][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
 [2023.05.28-12.36.02:417][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
 [2023.05.28-12.36.02:461][978]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.05.28-12.43.21:433][886]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-12.44.32:305][251]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.05.28-12.44.32:305][251]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.05.28-12.45.04:865][417]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-12.45.16:945][852]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_7.lib and object D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_7.exp
+[2023.05.28-12.45.17:353][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.28-12.45.17:895][854]Display: Reload/Re-instancing Complete: 3 classes unchanged
+[2023.05.28-12.45.17:895][854]LogLiveCoding: Display: Live coding succeeded
+[2023.05.28-12.56.26:146][862]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-12.56.45:172][172]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.05.28-12.56.45:172][172]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.05.28-12.57.48:756][418]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-12.58.00:291][585]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_8.lib and object D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_8.exp
+[2023.05.28-12.58.00:506][586]LogClass: UClass Tower Reload.
+[2023.05.28-12.58.00:506][586]LogClass: Could not find existing class Tower in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.05.28-12.58.00:525][586]Re-instancing Tower after reload.
+[2023.05.28-12.58.00:751][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2023.05.28-12.58.01:168][587]Display: Reload/Re-instancing Complete: 1 class changed
+[2023.05.28-12.58.01:168][587]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.05.28-12.58.23:103][697]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-12.58.32:098][754]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_9.lib and object D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_9.exp
+[2023.05.28-12.58.32:849][755]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2023.05.28-12.58.33:323][756]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.05.28-12.58.33:323][756]LogLiveCoding: Display: Live coding succeeded
+[2023.05.28-13.00.10:519][ 80]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-13.00.10:601][ 80]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.05.28-13.00.20:941][131]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_10.lib and object D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_10.exp
+[2023.05.28-13.00.21:366][132]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.05.28-13.00.21:366][132]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.05.28-13.00.21:729][132]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2023.05.28-13.00.22:309][133]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class unchanged
+[2023.05.28-13.00.22:309][133]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.05.28-13.04.11:417][888]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-13.04.22:650][699]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_11.lib and object D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_11.exp
+[2023.05.28-13.04.22:844][705]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.05.28-13.04.22:844][705]LogClass: UClass Projectile Reload.
+[2023.05.28-13.04.22:844][705]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.05.28-13.04.22:860][705]Re-instancing Projectile after reload.
+[2023.05.28-13.04.23:009][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.05.28-13.04.23:380][706]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.05.28-13.04.23:380][706]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.05.28-13.05.40:649][934]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.28-13.05.40:673][934]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.28-13.05.40:702][935]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.28-13.05.47:221][571]LogContentBrowser: Attempting asset rename: NewFolder -> Actors
+[2023.05.28-13.05.47:222][571]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.28-13.06.04:923][869]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.28-13.06.04:923][869]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.28-13.06.04:923][869]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.28-13.06.13:619][869]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.28-13.06.13:633][869]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.28-13.06.13:644][869]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.28-13.06.13:678][871]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.28-13.06.50:381][555]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Proj
+[2023.05.28-13.06.50:435][555]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.28-13.06.54:214][792]LogContentBrowser: Attempting asset rename: BP_Proj -> BP_Proj
+[2023.05.28-13.06.58:390][142]LogContentBrowser: Attempting asset rename: BP_Proj -> BP_Projectile
+[2023.05.28-13.06.58:724][142]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Actors/BP_Proj.PackageMetaData'
+[2023.05.28-13.06.58:724][142]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Actors/BP_Proj.PackageMetaData'
+[2023.05.28-13.06.58:724][142]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C' ref from Metadata '/Game/Blueprints/Actors/BP_Proj.PackageMetaData'
+[2023.05.28-13.06.58:724][142]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile_C' ref from Metadata '/Game/Blueprints/Actors/BP_Proj.PackageMetaData'
+[2023.05.28-13.06.58:724][142]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Actors/BP_Proj.PackageMetaData'
+[2023.05.28-13.06.58:724][142]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Actors/BP_Proj.PackageMetaData'
+[2023.05.28-13.06.58:724][142]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Actors/BP_Proj.PackageMetaData'
+[2023.05.28-13.06.58:792][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.28-13.06.58:882][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_Projectile" FILE="../../../../../Unreal_5_CPP/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset" SILENT=true
+[2023.05.28-13.06.58:885][142]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/BP_Projectile
+[2023.05.28-13.06.58:886][142]LogSavePackage: Moving '../../../../../Unreal_5_CPP/ToonTanks/Saved/BP_Projectile66F0DA874A07DB24595E54812D330B84.tmp' to '../../../../../Unreal_5_CPP/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2023.05.28-13.06.58:894][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 1.20 sec)
+[2023.05.28-13.06.59:032][142]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.05.28-13.06.59:086][142]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2023.05.28-13.06.59:118][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.28-13.06.59:123][142]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.05.28-13.06.59:123][142]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2023.05.28-13.07.00:073][213]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2023.05.28-13.07.00:073][213]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-13.07.00:764][213]LogViewport: Scene viewport resized to 1141x869, mode Windowed.
+[2023.05.28-13.07.03:137][327]LogViewport: Scene viewport resized to 1139x892, mode Windowed.
+[2023.05.28-13.07.03:258][329]LogViewport: Scene viewport resized to 569x382, mode Windowed.
+[2023.05.28-13.07.03:351][330]LogViewport: Scene viewport resized to 467x290, mode Windowed.
+[2023.05.28-13.07.03:449][335]LogViewport: Scene viewport resized to 1141x869, mode Windowed.
+[2023.05.28-13.07.04:268][401]LogSlate: Window 'BP_Projectile' being destroyed
+[2023.05.28-13.07.04:308][401]LogViewport: Scene viewport resized to 1141x863, mode Windowed.
+[2023.05.28-13.07.05:867][471]LogViewport: Scene viewport resized to 1141x869, mode Windowed.
+[2023.05.28-13.07.06:366][521]LogSlate: Window 'BP_Projectile' being destroyed
+[2023.05.28-13.07.21:766][963]LogSlate: Took 0.004474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.28-13.07.21:855][965]LogShaderCompilers: Display: ================================================
+[2023.05.28-13.07.21:855][965]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.28-13.07.21:855][965]LogShaderCompilers: Display: Total job queries 82, among them cache hits 21 (25.61%)
+[2023.05.28-13.07.21:855][965]LogShaderCompilers: Display: Tracking 61 distinct input hashes that result in 41 distinct outputs (67.21%)
+[2023.05.28-13.07.21:855][965]LogShaderCompilers: Display: RAM used: 0.14 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2023.05.28-13.07.21:855][965]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.28-13.07.21:855][965]LogShaderCompilers: Display: Shaders Compiled: 3
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100.00%)
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.18 s
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Job execution time: average 4.98 s, max 5.37 s
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Job life time (pending + execution): average 5.04 s, max 5.38
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.48 s
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Average processing rate: 0.55 jobs/sec
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Total thread time: 7.10 s
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Total thread preprocess time: 0.37 s
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Percentage time preprocessing: 5.21%
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Effective parallelization: 1.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 2.37 sec, max 2.41 sec, min 2.33 sec)
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 100.00% of total time (compiled    3 times, average 2.37 sec, max 2.41 sec, min 2.33 sec)
+[2023.05.28-13.07.21:856][965]LogShaderCompilers: Display: ================================================
+[2023.05.28-13.07.28:144][522]LogStaticMesh: Display: Building static mesh SM_Projectile...
+[2023.05.28-13.07.28:267][522]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/SM_Projectile) ...
+[2023.05.28-13.07.28:389][522]LogStaticMesh: Built static mesh [0.27s] /Game/Assets/Meshes/SM_Projectile.SM_Projectile
+[2023.05.28-13.07.30:286][607]LogMeshUtilities: Finished mesh card build in 1.5s SM_Projectile tris:383 surfels:40
+[2023.05.28-13.07.40:802][638]BlueprintLog: New page: Compile BP_Projectile
+[2023.05.28-13.07.40:893][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.05.28-13.07.42:347][780]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.28-13.07.42:569][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_Projectile" FILE="../../../../../Unreal_5_CPP/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset" SILENT=true
+[2023.05.28-13.07.42:573][780]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/BP_Projectile
+[2023.05.28-13.07.42:573][780]LogSavePackage: Moving '../../../../../Unreal_5_CPP/ToonTanks/Saved/BP_ProjectileC7676AD841643CB0F5CA449A86FEAEAE.tmp' to '../../../../../Unreal_5_CPP/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2023.05.28-13.07.42:583][780]LogFileHelpers: InternalPromptForCheckoutAndSave took 236 ms (total: 1.44 sec)
+[2023.05.28-13.07.42:590][780]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.05.28-13.07.42:590][780]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2023.05.28-13.07.44:220][960]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-13.07.44:221][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-13.07.51:546][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms

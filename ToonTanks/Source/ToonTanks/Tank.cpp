@@ -54,6 +54,7 @@ void ATank::SetupPlayerInputComponent(UInputComponent* playerInputComponent)
 
     playerInputComponent->BindAxis(TEXT("Turn"), this, &ATank::Turn);
 
+    playerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &ATank::Fire);
 }
 
 
@@ -75,7 +76,3 @@ void ATank::Turn(float value)
     AddActorLocalRotation(deltaRotation, true);
 
 }
-
-
-
-
