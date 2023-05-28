@@ -1297,3 +1297,59 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.28-13.50.12:470][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.05.28-13.50.12:694][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
 [2023.05.28-13.50.12:754][967]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.05.28-13.54.26:973][ 30]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-13.54.35:398][775]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_1.lib and object D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_1.exp
+[2023.05.28-13.54.36:508][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.05.28-13.54.36:908][784]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged
+[2023.05.28-13.54.36:908][784]LogLiveCoding: Display: Live coding succeeded
+[2023.05.28-13.55.09:275][ 16]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.28-13.55.09:285][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.28-13.55.09:286][ 16]PIE: New page: PIE session: Main (28 May 2023, 19:55:09)
+[2023.05.28-13.55.09:286][ 16]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.05.28-13.55.09:296][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010242s)
+[2023.05.28-13.55.09:296][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.010307s)
+[2023.05.28-13.55.09:296][ 16]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-13.55.09:296][ 16]LogAIModule: Creating AISystem for world Main
+[2023.05.28-13.55.09:297][ 16]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2023.05.28-13.55.09:362][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.05.28-13.55.09:367][ 16]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.05.28-13.55.09:367][ 16]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.28-13.55.09:367][ 16]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.28-13.55.09:367][ 16]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.28-13.55.09:367][ 16]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.28-13.55.09:367][ 16]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.28-13.55.09:367][ 16]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.28-13.55.09:367][ 16]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.28-13.55.09:367][ 16]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.28-13.55.09:367][ 16]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.28-13.55.09:367][ 16]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.28-13.55.09:367][ 16]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.28-13.55.09:369][ 16]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.28-13.55.09:396][ 16]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Sharkoon SB1)
+[2023.05.28-13.55.09:396][ 16]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.28-13.55.09:396][ 16]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.28-13.55.09:396][ 16]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.28-13.55.09:397][ 16]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.05.28-13.55.09:397][ 16]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.05.28-13.55.09:398][ 16]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.05.28-13.55.09:398][ 16]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.05.28-13.55.09:398][ 16]LogInit: FAudioDevice initialized.
+[2023.05.28-13.55.09:398][ 16]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2023.05.28-13.55.09:402][ 16]LogLoad: Game class is 'GameModeBase'
+[2023.05.28-13.55.09:407][ 16]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.05.28-16.55.09
+[2023.05.28-13.55.09:408][ 16]LogWorld: Bringing up level for play took: 0.006364
+[2023.05.28-13.55.09:410][ 16]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.05.28-13.55.09:411][ 16]PIE: Server logged in
+[2023.05.28-13.55.09:412][ 16]PIE: Play in editor total start time 0.128 seconds.
+[2023.05.28-13.55.14:494][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-13.55.14:494][557]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.05.28-13.55.14:497][557]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-13.55.14:499][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-13.55.14:513][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.28-13.55.14:525][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-13.55.14:558][557]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.28-13.55.14:558][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.05.28-13.55.14:560][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.05.28-13.55.14:564][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-13.55.14:592][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.05.28-13.55.14:620][558]LogPlayLevel: Display: Destroying online subsystem :Context_9
