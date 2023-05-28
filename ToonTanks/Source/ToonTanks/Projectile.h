@@ -36,6 +36,9 @@ private:
 		const FHitResult& hit
 	);
 
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	float damage = 50.f;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

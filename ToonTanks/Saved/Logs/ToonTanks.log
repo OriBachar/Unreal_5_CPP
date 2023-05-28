@@ -1471,3 +1471,73 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.05.28-14.40.30:753][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
 [2023.05.28-14.40.31:251][247]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
 [2023.05.28-14.40.31:251][247]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.05.28-14.41.27:022][482]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-14.41.32:326][889]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_6.lib and object D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_6.exp
+[2023.05.28-14.41.32:746][894]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.05.28-14.41.33:140][895]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged, 1 function remapped
+[2023.05.28-14.41.33:140][895]LogLiveCoding: Display: Live coding succeeded
+[2023.05.28-14.48.05:129][190]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-14.48.23:117][ 76]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_7.lib and object D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_7.exp
+[2023.05.28-14.48.23:369][ 77]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.05.28-14.48.23:370][ 77]LogClass: UClass Projectile Reload.
+[2023.05.28-14.48.23:370][ 77]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.05.28-14.48.23:370][ 77]LogClass: Function OnHit is new or belongs to a modified class.
+[2023.05.28-14.48.23:384][ 77]Re-instancing Projectile after reload.
+[2023.05.28-14.48.23:597][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2023.05.28-14.48.24:042][ 78]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.05.28-14.48.24:042][ 78]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.05.28-14.56.37:738][616]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.28-14.56.51:653][796]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_8.lib and object D:\Unreal_5_CPP\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_8.exp
+[2023.05.28-14.56.52:165][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.05.28-14.56.52:588][802]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged, 1 function remapped
+[2023.05.28-14.56.52:588][802]LogLiveCoding: Display: Live coding succeeded
+[2023.05.28-14.56.56:168][ 38]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.28-14.56.56:179][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.28-14.56.56:179][ 38]PIE: New page: PIE session: Main (28 May 2023, 20:56:56)
+[2023.05.28-14.56.56:215][ 38]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.05.28-14.56.56:237][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022044s)
+[2023.05.28-14.56.56:237][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.022169s)
+[2023.05.28-14.56.56:237][ 38]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-14.56.56:238][ 38]LogAIModule: Creating AISystem for world Main
+[2023.05.28-14.56.56:238][ 38]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2023.05.28-14.56.56:347][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.05.28-14.56.56:355][ 38]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.05.28-14.56.56:355][ 38]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.28-14.56.56:355][ 38]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.28-14.56.56:355][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.28-14.56.56:355][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.28-14.56.56:355][ 38]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.28-14.56.56:355][ 38]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.28-14.56.56:355][ 38]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.28-14.56.56:355][ 38]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.28-14.56.56:356][ 38]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.28-14.56.56:356][ 38]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.28-14.56.56:356][ 38]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.28-14.56.56:358][ 38]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.28-14.56.56:387][ 38]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Sharkoon SB1)
+[2023.05.28-14.56.56:387][ 38]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.28-14.56.56:387][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.28-14.56.56:387][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.28-14.56.56:388][ 38]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.05.28-14.56.56:388][ 38]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.05.28-14.56.56:390][ 38]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.05.28-14.56.56:390][ 38]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.05.28-14.56.56:390][ 38]LogInit: FAudioDevice initialized.
+[2023.05.28-14.56.56:390][ 38]LogAudio: Display: Audio Device (ID: 5) registered with world 'Main'.
+[2023.05.28-14.56.56:394][ 38]LogLoad: Game class is 'GameModeBase'
+[2023.05.28-14.56.56:399][ 38]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.05.28-17.56.56
+[2023.05.28-14.56.56:401][ 38]LogWorld: Bringing up level for play took: 0.006325
+[2023.05.28-14.56.56:403][ 38]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.05.28-14.56.56:404][ 38]PIE: Server logged in
+[2023.05.28-14.56.56:405][ 38]PIE: Play in editor total start time 0.227 seconds.
+[2023.05.28-14.57.03:105][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-14.57.03:105][736]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.05.28-14.57.03:105][736]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-14.57.03:106][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-14.57.03:109][736]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.28-14.57.03:114][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-14.57.03:135][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-14.57.03:137][736]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.05.28-14.57.03:139][736]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.05.28-14.57.03:174][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.05.28-14.57.03:219][737]LogPlayLevel: Display: Destroying online subsystem :Context_19

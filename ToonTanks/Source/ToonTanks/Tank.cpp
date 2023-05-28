@@ -20,10 +20,7 @@ void ATank::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-    if (!playerControllerRef)
-    {
-        return;
-    }
+    if (!playerControllerRef) return;
 
     FHitResult hitResult;
 

@@ -22,7 +22,6 @@ void UHealthComponent::BeginPlay()
 	health = maxHealth;
 
 	GetOwner()->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::DamageTaken);
-	
 }
 
 
@@ -42,5 +41,7 @@ void UHealthComponent::DamageTaken(
 	AActor* damageCauser
 )
 {
+	if(damage <= 0.f) return;
 
+	health -= damage;
 }
