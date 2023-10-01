@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.S
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -18,24 +18,34 @@ public:
 	void HandleDestruction();
 
 protected:
-	
-	void RotateTurret(FVector lookAtTarget);
-
+	void RotateTurret(FVector LookAtTarget);
 	void Fire();
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	class UCapsuleComponent* capsuleComponent;
-
+	class UCapsuleComponent *CapsuleComp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	UStaticMeshComponent* baseMesh;
-
+	UStaticMeshComponent *BaseMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	UStaticMeshComponent* turretMesh;
-
+	UStaticMeshComponent *TurretMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	USceneComponent* projectileSpawnPoint;
+	USceneComponent *ProjectileSpawnPoint;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Super Duper Variables", meta = (AllowPrivateAccess = "true"))
+	int32 VisibleAnywhereInt = 12;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Super Duper Variables", meta = (AllowPrivateAccess = "true"))
+	int32 EditAnywhereInt = 22;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
-	TSubclassOf<class AProjectile> projectileClass;
+	TSubclassOf<class AProjectile> ProjectileClass;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	class UParticleSystem *DeathParticles;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	class USoundBase *DeathSound;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	TSubclassOf<class UCameraShake> DeathCameraShakeClass;
 };

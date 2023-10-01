@@ -14,8 +14,8 @@ class TOONTANKS_API ATower : public ABasePawn
 {
 	GENERATED_BODY()
 
-public:	
-	// Called every frame
+public:
+
 	virtual void Tick(float DeltaTime) override;
 
 	void HandleDestruction();
@@ -26,15 +26,13 @@ protected:
 
 private:
 
-	class ATank* tank;
+	class ATank* Tank;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
-	float fireRange = 700.f;
+	float FireRange = 300.f;
 
-	FTimerHandle fireRateTimerHandle;
-
-	float fireRate = 2.f;
-
+	FTimerHandle FireRateTimerHandle;
+	float FireRate = 2.f;
 	void CheckFireCondition();
 
 	bool InFireRange();

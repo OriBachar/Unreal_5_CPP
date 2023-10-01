@@ -15,41 +15,39 @@ class TOONTANKS_API ATank : public ABasePawn
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this pawn's properties
 	ATank();
 
 	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* playerInputComponent) override;
+	virtual void SetupPlayerInputComponent(class UInputComponent *PlayerInputComponent) override;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	void HandleDestruction();
 
-	APlayerController* GetTankPlayerController() const { return tankPlayerController; }
+	APlayerController* GetTankPlayerController() const { return TankPlayerController; }
+
+	bool bAlive = true;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
-	class USpringArmComponent* springArmComponent;
+	class USpringArmComponent* SpringArm;
 
 	UPROPERTY(VisibleAnywhere, Category = "Components")
-	class UCameraComponent* cameraComponent;
+	class UCameraComponent* Camera;
 
 	UPROPERTY(EditAnywhere, Category = "Movement")
-	float speed = 800.f;
+	float Speed = 200.f;
 
 	UPROPERTY(EditAnywhere, Category = "Movement")
-	float turnRate = 120.f;
+	float TurnRate = 45.f;
 
-	APlayerController* tankPlayerController;
+	void Move(float Value);
+	void Turn(float Value);
 
-	void Move(float value);
-
-	void Turn(float value);
-	
+	APlayerController* TankPlayerController;
 };

@@ -3,43 +3,17 @@
 		{
 			"name": "ToonTanks",
 			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "C:\\Program Files\\Epic Games\\UE_4.25"
 		}
 	],
 	"settings": {
 		"typescript.tsc.autoDetect": "off",
-		"files.associations": {
-			"bitset": "cpp",
-			"forward_list": "cpp",
-			"future": "cpp",
-			"list": "cpp",
-			"random": "cpp",
-			"regex": "cpp",
-			"iterator": "cpp",
-			"memory": "cpp",
-			"xutility": "cpp",
-			"*.rh": "cpp",
-			"__bit_reference": "cpp",
-			"__node_handle": "cpp",
-			"atomic": "cpp",
-			"chrono": "cpp",
-			"cstddef": "cpp",
-			"deque": "cpp",
-			"__memory": "cpp",
-			"filesystem": "cpp",
-			"limits": "cpp",
-			"locale": "cpp",
-			"optional": "cpp",
-			"ratio": "cpp",
-			"system_error": "cpp",
-			"tuple": "cpp",
-			"type_traits": "cpp",
-			"vector": "cpp",
-			"complex": "cpp",
-			"functional": "cpp",
-			"xlocmon": "cpp",
-			"xlocnum": "cpp",
-			"xtr1common": "cpp"
-		}
+		"C_Cpp.default.forcedInclude": [
+			"c:\\GameDev\\ToonTanksV2\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\ToonTanks\\Definitions.ToonTanks.h"
+		]
 	},
 	"extensions": {
 		"recommendations": [
