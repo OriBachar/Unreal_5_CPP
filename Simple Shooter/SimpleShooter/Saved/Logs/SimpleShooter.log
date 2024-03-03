@@ -1810,3 +1810,42 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.03-11.32.44:576][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
 [2024.03.03-11.32.44:608][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
 [2024.03.03-11.32.44:667][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.03.03-11.44.14:008][ 56]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.03-11.44.37:255][579]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_3.lib and object D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_3.exp
+[2024.03.03-11.44.37:637][592]LogClass: UPackage /Script/SimpleShooter Reload.
+[2024.03.03-11.44.37:637][592]LogClass: UClass ShooterCharacter Reload.
+[2024.03.03-11.44.37:647][592]LogClass: Could not find existing class ShooterCharacter in package /Script/SimpleShooter for reload, assuming new or modified class
+[2024.03.03-11.44.37:671][592]Re-instancing ShooterCharacter after reload.
+[2024.03.03-11.44.37:956][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2024.03.03-11.44.38:546][593]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.03.03-11.44.38:546][593]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.03.03-11.47.50:462][678]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.03-11.48.11:665][201]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_4.lib and object D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_4.exp
+[2024.03.03-11.48.12:518][206]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2024.03.03-11.48.13:090][207]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2024.03.03-11.48.13:090][207]LogLiveCoding: Display: Live coding succeeded
+[2024.03.03-11.48.50:794][598]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2024.03.03-11.48.52:069][598]LogSlate: Window 'Save Content' being destroyed
+[2024.03.03-11.48.52:111][598]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-11.48.52:216][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-11.48.52:221][598]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-11.48.52:222][598]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter036E7BE44E360246A0420F8CAAAF4019.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-11.48.52:230][598]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 5.05 sec)
+[2024.03.03-11.48.52:246][598]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-11.48.52:246][598]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-11.49.06:383][770]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-11.49.06:461][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-11.49.06:465][770]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-11.49.06:466][770]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter1D311A8A4C166041DACA669FA40C52CE.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-11.49.06:477][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 5.15 sec)
+[2024.03.03-11.49.06:488][770]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-11.49.06:488][770]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-11.49.22:075][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-11.49.22:203][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-11.49.22:208][ 73]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-11.49.22:209][ 73]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacterAFFB3FEB4366EF32C1643280DB694EB7.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-11.49.22:223][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 5.29 sec)
+[2024.03.03-11.49.22:236][ 73]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-11.49.22:236][ 73]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-11.49.39:502][481]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2024.03.03-11.49.39:681][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
