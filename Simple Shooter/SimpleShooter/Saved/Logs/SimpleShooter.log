@@ -2330,3 +2330,537 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.03-12.26.53:409][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
 [2024.03.03-12.26.53:427][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
 [2024.03.03-12.26.53:494][814]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.03.03-12.31.44:600][691]LogDerivedDataCache: C:/Users/oriba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:23.118 and deleted 0 files with total size 0 MiB. Scanned 11866 files in 11599 folders with total size 892 MiB.
+[2024.03.03-12.33.30:234][280]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Ability_RMB_Walk_Fwd.Ability_RMB_Walk_Fwd
+[2024.03.03-12.33.30:234][280]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Ability_RMB_Walk_Fwd.Ability_RMB_Walk_Fwd
+[2024.03.03-12.33.40:211][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.33.40:333][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.33.40:339][679]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.33.40:340][679]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter300B11C44368686F22C30EB4293F53F5.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.33.40:350][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 6.91 sec)
+[2024.03.03-12.33.40:368][679]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.33.40:368][679]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.35.52:594][869]LogShaderCompilers: Display: ================================================
+[2024.03.03-12.35.52:594][869]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.03-12.35.52:594][869]LogShaderCompilers: Display: Total job queries 331, among them cache hits 52 (15.71%)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Tracking 276 distinct input hashes that result in 228 distinct outputs (82.61%)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: RAM used: 2.11 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.13%
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Shaders Compiled: 94
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Jobs assigned 97, completed 94 (96.91%)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Average time worker was idle: 351.66 s
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Time job spent in pending queue: average 2.42 s, longest 11.91 s
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Job execution time: average 1.97 s, max 9.55 s
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Job life time (pending + execution): average 4.46 s, max 13.04
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 35.22 s
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Jobs were issued in 97 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Average processing rate: 2.67 jobs/sec
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Total thread time: 108.98 s
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Total thread preprocess time: 6.57 s
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Percentage time preprocessing: 6.03%
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Effective parallelization: 3.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 2.54 sec, max 3.78 sec, min 1.31 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    5 times, average 2.47 sec, max 4.92 sec, min 0.62 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   14 times, average 1.89 sec, max 4.51 sec, min 0.87 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   17 times, average 1.71 sec, max 6.60 sec, min 0.85 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    5 times, average 1.29 sec, max 2.77 sec, min 0.40 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.65% of total time (compiled   17 times, average 1.71 sec, max 6.60 sec, min 0.85 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.33% of total time (compiled   14 times, average 1.89 sec, max 4.51 sec, min 0.87 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:                                                  FHitProxyVS - 11.33% of total time (compiled    5 times, average 2.47 sec, max 4.92 sec, min 0.62 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 9.25% of total time (compiled    9 times, average 1.12 sec, max 1.60 sec, min 0.87 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.81% of total time (compiled    7 times, average 1.06 sec, max 1.36 sec, min 0.88 sec)
+[2024.03.03-12.35.52:595][869]LogShaderCompilers: Display: ================================================
+[2024.03.03-12.38.12:301][908]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/AssetPacks/ModularSciFiSeason1/StarterBundle/ModularSci_Comm/Meshes/SM_Stairs_A1.SM_Stairs_A1
+[2024.03.03-12.38.12:357][908]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.38.12:433][908]LogStaticMesh: Display: Building static mesh Sphere_inversenormals...
+[2024.03.03-12.38.12:445][908]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2024.03.03-12.38.12:573][908]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2024.03.03-12.38.12:575][908]LogStaticMesh: Display: Building static mesh Floor_Mesh...
+[2024.03.03-12.38.12:577][908]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2024.03.03-12.38.13:356][908]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2024.03.03-12.40.56:217][592]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.40.56:694][592]LogSavePackage: Moving output files for package: /Game/AssetPacks/ModularSciFiSeason1/StarterBundle/ModularSci_Comm/Meshes/SM_Stairs_A1
+[2024.03.03-12.40.56:695][592]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/SM_Stairs_A1B936CB7A47FF9003C0DEF2B7BBDDFB6E.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/ModularSci_Comm/Meshes/SM_Stairs_A1.uasset'
+[2024.03.03-12.40.56:708][592]LogFileHelpers: InternalPromptForCheckoutAndSave took 491 ms (total: 7.41 sec)
+[2024.03.03-12.40.56:722][592]AssetCheck: New page: Asset Save: SM_Stairs_A1
+[2024.03.03-12.40.56:722][592]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/AssetPacks/ModularSciFiSeason1/StarterBundle/ModularSci_Comm/Meshes/SM_Stairs_A1.SM_Stairs_A1
+[2024.03.03-12.42.14:705][966]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-12.42.14:705][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.42.25:954][ 55]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-12.42.25:962][ 55]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.03-12.42.25:963][ 55]LogPlayLevel: [PlayLevel] Compiling BP_ShooterCharacter before play...
+[2024.03.03-12.42.26:103][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2024.03.03-12.42.26:110][ 55]LogPlayLevel: PlayLevel: Blueprint regeneration took 148 ms (1 blueprints)
+[2024.03.03-12.42.26:110][ 55]PIE: New page: PIE session: Sandbox (3 Mar 2024, 16:42:26)
+[2024.03.03-12.42.26:110][ 55]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.42.26:370][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.259644s)
+[2024.03.03-12.42.26:370][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.259683s)
+[2024.03.03-12.42.26:370][ 55]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.42.26:370][ 55]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-12.42.26:372][ 55]LogPlayLevel: PIE: World Init took: (0.001923s)
+[2024.03.03-12.42.26:429][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2024.03.03-12.42.26:430][ 55]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.03.03-12.42.26:430][ 55]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-12.42.26:430][ 55]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-12.42.26:430][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-12.42.26:430][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-12.42.26:430][ 55]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-12.42.26:430][ 55]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-12.42.26:430][ 55]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-12.42.26:430][ 55]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-12.42.26:431][ 55]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-12.42.26:431][ 55]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-12.42.26:431][ 55]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-12.42.26:433][ 55]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-12.42.26:461][ 55]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-12.42.26:462][ 55]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-12.42.26:462][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-12.42.26:462][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-12.42.26:462][ 55]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.03.03-12.42.26:462][ 55]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.03.03-12.42.26:463][ 55]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.03.03-12.42.26:463][ 55]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.03.03-12.42.26:463][ 55]LogInit: FAudioDevice initialized.
+[2024.03.03-12.42.26:463][ 55]LogAudio: Display: Audio Device (ID: 16) registered with world 'Sandbox'.
+[2024.03.03-12.42.26:468][ 55]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-12.42.26:506][ 55]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-14.42.26
+[2024.03.03-12.42.26:523][ 55]LogWorld: Bringing up level for play took: 0.054654
+[2024.03.03-12.42.26:526][ 55]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.03.03-12.42.26:530][ 55]PIE: Server logged in
+[2024.03.03-12.42.26:531][ 55]PIE: Play in editor total start time 0.569 seconds.
+[2024.03.03-12.43.04:075][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.43.04:075][892]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.43.04:078][892]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-12.43.04:084][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.43.04:090][892]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-12.43.04:103][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.43.04:165][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.43.04:178][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.03-12.43.04:180][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.03-12.43.04:201][892]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2024.03.03-12.43.04:271][893]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.03.03-12.45.05:652][ 60]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2024.03.03-12.45.05:666][ 60]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2024.03.03-12.45.05:673][ 60]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2024.03.03-12.45.05:710][ 61]LogContentBrowser: Renaming the item being created (Deferred Item: NewAnimBlueprint).
+[2024.03.03-12.45.23:372][382]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> NewAnimBlueprint
+[2024.03.03-12.45.23:415][382]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2024.03.03-12.45.27:678][511]LogContentBrowser: Attempting asset rename: BP_ShooterCharacter -> BP_ShooterCharacter
+[2024.03.03-12.45.34:482][755]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> ABP_ShooterCharacter
+[2024.03.03-12.45.34:514][755]LogMetaData: Removing '/Game/ABP_ShooterCharacter.ABP_ShooterCharacter:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2024.03.03-12.45.34:514][755]LogMetaData: Removing '/Game/ABP_ShooterCharacter.SKEL_ABP_ShooterCharacter_C:AnimGraph' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2024.03.03-12.45.34:514][755]LogMetaData: Removing '/Game/ABP_ShooterCharacter.SKEL_ABP_ShooterCharacter_C' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2024.03.03-12.45.34:514][755]LogMetaData: Removing '/Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:AnimGraph' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2024.03.03-12.45.34:514][755]LogMetaData: Removing '/Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2024.03.03-12.45.34:514][755]LogMetaData: Removing '/Game/ABP_ShooterCharacter.ABP_ShooterCharacter:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2024.03.03-12.45.34:514][755]LogMetaData: Removing '/Game/ABP_ShooterCharacter.ABP_ShooterCharacter:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2024.03.03-12.45.34:514][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.45.34:616][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ABP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.45.34:630][755]LogSavePackage: Moving output files for package: /Game/ABP_ShooterCharacter
+[2024.03.03-12.45.34:630][755]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/ABP_ShooterCharacterB32FD099499B9C1CD87A9CB512C195DA.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset'
+[2024.03.03-12.45.34:643][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 7.53 sec)
+[2024.03.03-12.45.34:725][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2024.03.03-12.45.34:792][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2024.03.03-12.45.34:853][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.03-12.45.34:864][755]AssetCheck: New page: Asset Save: ABP_ShooterCharacter
+[2024.03.03-12.45.34:864][755]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-12.45.42:799][855]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-12.45.42:816][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.45.43:008][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.45.43:056][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.03-12.45.44:065][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.45.44:742][855]LogViewport: Scene viewport resized to 476x409, mode Windowed.
+[2024.03.03-12.46.28:503][285]LogSlate: Took 0.021972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.03.03-12.46.28:520][285]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-12.49.16:592][815]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2024.03.03-12.49.19:231][110]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-12.49.23:789][504]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Jog_Fwd.Jog_Fwd
+[2024.03.03-12.49.50:424][931]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2024.03.03-12.49.51:281][ 22]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-12.50.00:663][427]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Jog_Bwd.Jog_Bwd
+[2024.03.03-12.50.23:940][276]BlueprintLog: New page: Compile ABP_ShooterCharacter
+[2024.03.03-12.50.24:121][276]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2024.03.03-12.50.29:697][756]BlueprintLog: New page: Compile ABP_ShooterCharacter
+[2024.03.03-12.50.29:820][756]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2024.03.03-12.51.37:479][651]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2024.03.03-12.51.38:135][728]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-12.51.40:281][966]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Idle_NonCombat.Idle_NonCombat
+[2024.03.03-12.51.40:285][966]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Idle_NonCombat.Idle_NonCombat
+[2024.03.03-12.52.19:524][ 76]LogSlate: Took 0.014933 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.03.03-12.53.20:538][ 87]BlueprintLog: New page: Compile ABP_ShooterCharacter
+[2024.03.03-12.53.21:072][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2024.03.03-12.53.47:658][529]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.03.03-12.54.35:839][952]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Jog_Left.Jog_Left
+[2024.03.03-12.55.37:983][328]BlueprintLog: New page: Compile ABP_ShooterCharacter
+[2024.03.03-12.55.38:116][328]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2024.03.03-12.56.55:107][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2024.03.03-12.56.55:112][919]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sandbox' took 0.081
+[2024.03.03-12.56.55:114][919]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ABP_ShooterCharacter] ([2] browsable assets)...
+[2024.03.03-12.56.55:123][919]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter]
+[2024.03.03-12.56.55:123][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/ABP_ShooterCharacter]
+[2024.03.03-12.56.55:134][919]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ABP_ShooterCharacter_Auto1
+[2024.03.03-12.56.55:134][919]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/ABP_ShooterCharacter_Auto1F432C6B74E44E70D130E088061BAB07F.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/Autosaves/Game/ABP_ShooterCharacter_Auto1.uasset'
+[2024.03.03-12.56.55:134][919]LogFileHelpers: Auto-saving content packages took 0.022
+[2024.03.03-12.59.00:353][125]BlueprintLog: New page: Compile ABP_ShooterCharacter
+[2024.03.03-12.59.00:468][125]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2024.03.03-13.01.20:395][146]LogSlate: Window 'Pick Skeleton' being destroyed
+[2024.03.03-13.01.20:434][146]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2024.03.03-13.01.20:444][146]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2024.03.03-13.01.20:464][147]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace).
+[2024.03.03-13.01.37:856][448]LogContentBrowser: Attempting asset rename: NewBlendSpace -> NewBlendSpace
+[2024.03.03-13.01.37:861][448]LogContentBrowser: End creating deferred item NewBlendSpace
+[2024.03.03-13.01.52:034][862]LogContentBrowser: Attempting asset rename: NewBlendSpace -> BS_Locomotion
+[2024.03.03-13.01.52:065][862]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.01.52:170][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2024.03.03-13.01.52:171][862]LogSavePackage: Moving output files for package: /Game/BS_Locomotion
+[2024.03.03-13.01.52:171][862]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_Locomotion2B1E5DE64F4390E29E0A9ABBE9A0F3D4.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2024.03.03-13.01.52:184][862]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 7.65 sec)
+[2024.03.03-13.01.52:290][862]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2024.03.03-13.01.52:374][862]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2024.03.03-13.01.52:459][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.03.03-13.01.52:475][862]AssetCheck: New page: Asset Save: BS_Locomotion
+[2024.03.03-13.01.52:475][862]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.01.57:085][908]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.01.57:107][908]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.01.57:153][908]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.03-13.01.57:385][908]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.01.58:054][908]LogViewport: Scene viewport resized to 1141x534, mode Windowed.
+[2024.03.03-13.01.58:072][908]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-13.02.02:907][256]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.02.02:908][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.02.02:962][256]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.02.02:962][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.02.03:022][256]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.02.03:022][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.03.20:599][119]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Ability_RMB_Walk_Right.Ability_RMB_Walk_Right
+[2024.03.03-13.03.30:104][  8]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.03.03-13.03.32:864][209]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Ability_RMB_Walk_Left.Ability_RMB_Walk_Left
+[2024.03.03-13.03.57:589][935]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Ability_RMB_Walk_Bwd.Ability_RMB_Walk_Bwd
+[2024.03.03-13.04.16:860][967]LogSlate: Window 'Create New Animation Object' being destroyed
+[2024.03.03-13.05.02:808][404]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Right that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.05.02:849][404]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Fwd that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.05.02:881][404]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Bwd that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.05.43:504][816]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Left that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.05.55:015][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.05.55:134][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2024.03.03-13.05.55:136][352]LogSavePackage: Moving output files for package: /Game/BS_Locomotion
+[2024.03.03-13.05.55:136][352]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_LocomotionF3F39D454F0AF773551F2B9745DFAC89.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2024.03.03-13.05.55:147][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 7.79 sec)
+[2024.03.03-13.05.55:171][352]AssetCheck: New page: Asset Save: BS_Locomotion
+[2024.03.03-13.05.55:171][352]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.05.56:114][409]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.05.56:222][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2024.03.03-13.05.56:224][409]LogSavePackage: Moving output files for package: /Game/BS_Locomotion
+[2024.03.03-13.05.56:224][409]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_Locomotion5AF9228849FC75B2E980E79A9031DBB0.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2024.03.03-13.05.56:240][409]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 7.91 sec)
+[2024.03.03-13.05.56:261][409]AssetCheck: New page: Asset Save: BS_Locomotion
+[2024.03.03-13.05.56:261][409]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.05.57:052][445]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2024.03.03-13.05.58:790][445]LogSlate: Window 'Save Content' being destroyed
+[2024.03.03-13.05.58:804][445]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.05.58:924][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ABP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-13.05.58:938][445]LogSavePackage: Moving output files for package: /Game/ABP_ShooterCharacter
+[2024.03.03-13.05.58:938][445]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/ABP_ShooterCharacterBE6E836843FAAB4F62C6CE9EB8EB9B68.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset'
+[2024.03.03-13.05.58:950][445]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 8.06 sec)
+[2024.03.03-13.05.58:965][445]AssetCheck: New page: Asset Save: ABP_ShooterCharacter
+[2024.03.03-13.05.58:965][445]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-13.07.29:853][851]LogSlate: Window 'Message Log' being destroyed
+[2024.03.03-13.08.06:091][551]LogSlate: Window 'Message Log' being destroyed
+[2024.03.03-13.08.06:134][551]LogSlate: Window 'Message Log' being destroyed
+[2024.03.03-13.08.11:960][872]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.08.12:081][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2024.03.03-13.08.12:084][872]LogSavePackage: Moving output files for package: /Game/BS_Locomotion
+[2024.03.03-13.08.12:084][872]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_Locomotion0568D5A44A2B3031973BB29F5836952B.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2024.03.03-13.08.12:098][872]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 8.20 sec)
+[2024.03.03-13.08.12:117][872]AssetCheck: New page: Asset Save: BS_Locomotion
+[2024.03.03-13.08.12:117][872]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.08.26:772][844]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Right that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.08.26:797][844]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Left that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.08.26:831][844]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Fwd that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.08.26:865][844]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Bwd that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.10.01:329][427]LogSlate: Window 'Message Log' being destroyed
+[2024.03.03-13.10.01:351][427]LogSlate: Window 'Message Log' being destroyed
+[2024.03.03-13.10.03:184][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.10.03:309][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2024.03.03-13.10.03:311][564]LogSavePackage: Moving output files for package: /Game/BS_Locomotion
+[2024.03.03-13.10.03:311][564]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_LocomotionB80081664316AE36283946815FD937AD.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2024.03.03-13.10.03:325][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 8.34 sec)
+[2024.03.03-13.10.03:338][564]AssetCheck: New page: Asset Save: BS_Locomotion
+[2024.03.03-13.10.03:338][564]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.10.24:457][678]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.10.24:457][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.10.24:496][678]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.10.24:496][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.10.32:995][ 92]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-13.10.32:995][ 92]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.10.33:031][ 92]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.10.33:046][ 92]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.03-13.10.33:826][ 92]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.10.33:924][ 92]LogViewport: Scene viewport resized to 476x409, mode Windowed.
+[2024.03.03-13.10.36:146][281]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.10.36:146][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.10.36:196][281]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.10.36:196][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.10.36:250][281]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.10.36:250][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.10.38:629][419]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.10.38:630][419]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.10.38:673][419]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.03-13.10.38:836][419]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.10.38:858][419]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Right that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.10.38:894][419]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Left that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.10.38:929][419]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Fwd that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.10.38:962][419]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Bwd that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.10.39:227][419]LogViewport: Scene viewport resized to 1141x534, mode Windowed.
+[2024.03.03-13.10.39:242][419]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-13.10.45:204][859]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.03.03-13.13.21:114][701]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2024.03.03-13.13.21:129][701]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sandbox' took 0.207
+[2024.03.03-13.13.21:131][701]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BS_Locomotion] ([1] browsable assets)...
+[2024.03.03-13.13.21:169][701]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/BS_Locomotion.BS_Locomotion]
+[2024.03.03-13.13.21:169][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/BS_Locomotion]
+[2024.03.03-13.13.21:169][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/Autosaves/Game/BS_Locomotion_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.03.03-13.13.21:170][701]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BS_Locomotion_Auto2
+[2024.03.03-13.13.21:171][701]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_Locomotion_Auto2419AE57D4C8905CE8CC653A3A5ACB36A.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/Autosaves/Game/BS_Locomotion_Auto2.uasset'
+[2024.03.03-13.13.21:171][701]LogFileHelpers: Auto-saving content packages took 0.041
+[2024.03.03-13.13.55:620][218]LogSlate: Window 'Message Log' being destroyed
+[2024.03.03-13.13.57:090][274]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2024.03.03-13.13.58:162][274]LogSlate: Window 'Save Content' being destroyed
+[2024.03.03-13.13.58:182][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.13.58:323][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2024.03.03-13.13.58:325][274]LogSavePackage: Moving output files for package: /Game/BS_Locomotion
+[2024.03.03-13.13.58:326][274]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_LocomotionA924DC4E4BF2665AB18EEB848F90FDDB.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2024.03.03-13.13.58:353][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 8.51 sec)
+[2024.03.03-13.13.58:368][274]AssetCheck: New page: Asset Save: BS_Locomotion
+[2024.03.03-13.13.58:368][274]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.14.25:181][661]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Right that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.14.25:212][661]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Left that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.14.25:236][661]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Fwd that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.14.25:270][661]LoadErrors: Error: BlendSpace BS_Locomotion has sample Ability_RMB_Walk_Bwd that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.03.03-13.14.42:454][107]Cmd: TRANSACTION UNDO
+[2024.03.03-13.14.42:462][107]LogEditorTransaction: Undo Moving Blendspace Sample
+[2024.03.03-13.14.42:666][107]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.03-13.15.31:658][218]LogViewport: Scene viewport resized to 757x346, mode Windowed.
+[2024.03.03-13.15.35:904][386]LogViewport: Scene viewport resized to 1141x534, mode Windowed.
+[2024.03.03-13.17.59:310][377]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Idle_Combat.Idle_Combat
+[2024.03.03-13.17.59:312][377]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Idle_Combat.Idle_Combat
+[2024.03.03-13.22.14:115][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Jog_Fwd_Combat.Jog_Fwd_Combat
+[2024.03.03-13.22.14:117][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Jog_Fwd_Combat.Jog_Fwd_Combat
+[2024.03.03-13.22.31:781][345]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Jog_Left_Combat.Jog_Left_Combat
+[2024.03.03-13.22.54:716][915]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Jog_Right_Combat.Jog_Right_Combat
+[2024.03.03-13.23.48:490][579]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Jog_Bwd_Downhill_Combat.Jog_Bwd_Downhill_Combat
+[2024.03.03-13.23.50:800][725]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Jog_Bwd_Combat.Jog_Bwd_Combat
+[2024.03.03-13.23.50:801][725]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Jog_Bwd_Combat.Jog_Bwd_Combat
+[2024.03.03-13.25.31:608][298]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.25.31:702][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2024.03.03-13.25.31:707][298]LogSavePackage: Moving output files for package: /Game/BS_Locomotion
+[2024.03.03-13.25.31:708][298]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_Locomotion22F5541245C8A23BD38072A9F12E2402.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2024.03.03-13.25.31:719][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 8.62 sec)
+[2024.03.03-13.25.31:740][298]AssetCheck: New page: Asset Save: BS_Locomotion
+[2024.03.03-13.25.31:740][298]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.26.05:830][643]Cmd: TRANSACTION UNDO
+[2024.03.03-13.26.05:830][643]LogEditorTransaction: Undo Moving Blendspace Sample
+[2024.03.03-13.26.05:930][643]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.03-13.26.33:809][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2024.03.03-13.26.33:824][ 22]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sandbox' took 0.084
+[2024.03.03-13.27.46:978][948]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2024.03.03-13.27.48:469][ 56]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-13.28.05:715][157]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Jog_Fwd_Ability_RMB_Combat.Jog_Fwd_Ability_RMB_Combat
+[2024.03.03-13.29.12:100][804]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2024.03.03-13.29.18:621][315]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-13.30.08:544][632]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Idle_Ability_RMB.Idle_Ability_RMB
+[2024.03.03-13.30.08:549][632]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Idle_Ability_RMB.Idle_Ability_RMB
+[2024.03.03-13.30.27:916][ 17]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2024.03.03-13.30.27:927][ 17]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.30.30:767][184]LogViewport: Scene viewport resized to 1141x894, mode Windowed.
+[2024.03.03-13.30.54:255][715]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.30.54:255][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.30.54:271][715]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.30.54:271][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.30.54:324][715]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.30.54:324][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.30.57:246][874]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.30.57:247][874]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.30.57:292][874]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.03-13.30.57:452][874]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.30.57:606][874]LogViewport: Scene viewport resized to 1141x534, mode Windowed.
+[2024.03.03-13.30.57:622][874]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-13.31.01:882][228]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.03.03-13.31.33:298][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.31.33:434][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2024.03.03-13.31.33:439][519]LogSavePackage: Moving output files for package: /Game/BS_Locomotion
+[2024.03.03-13.31.33:439][519]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_LocomotionF8CFCABC49503CA989D1E4A890E78FD1.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2024.03.03-13.31.33:451][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 8.77 sec)
+[2024.03.03-13.31.33:466][519]AssetCheck: New page: Asset Save: BS_Locomotion
+[2024.03.03-13.31.33:466][519]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-13.31.43:832][211]LogDerivedDataCache: C:/Users/oriba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:22.349 and deleted 0 files with total size 0 MiB. Scanned 11905 files in 11638 folders with total size 894 MiB.
+[2024.03.03-13.33.09:360][574]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.33.09:361][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.33.11:820][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.03-13.33.11:821][775]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.33.11:821][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.33.14:804][858]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-13.33.14:804][858]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.33.14:842][858]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.33.14:852][858]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.03-13.33.15:667][858]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.33.15:757][858]LogViewport: Scene viewport resized to 476x409, mode Windowed.
+[2024.03.03-13.33.21:160][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.33.21:274][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ABP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-13.33.21:282][281]LogSavePackage: Moving output files for package: /Game/ABP_ShooterCharacter
+[2024.03.03-13.33.21:283][281]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/ABP_ShooterCharacter8F0F2E6F46F45A7473DE989B464781A0.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset'
+[2024.03.03-13.33.21:294][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 8.91 sec)
+[2024.03.03-13.33.21:309][281]AssetCheck: New page: Asset Save: ABP_ShooterCharacter
+[2024.03.03-13.33.21:309][281]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-13.33.29:833][346]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-13.33.35:117][717]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.03.03-13.33.54:448][765]BlueprintLog: New page: Compile ABP_ShooterCharacter
+[2024.03.03-13.33.54:737][765]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2024.03.03-13.34.44:559][783]BlueprintLog: New page: Compile ABP_ShooterCharacter
+[2024.03.03-13.34.44:788][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2024.03.03-13.35.29:749][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.35.29:881][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ABP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-13.35.29:893][332]LogSavePackage: Moving output files for package: /Game/ABP_ShooterCharacter
+[2024.03.03-13.35.29:893][332]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/ABP_ShooterCharacterCF8981114426E6FD72D3A38C18ED2CBE.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset'
+[2024.03.03-13.35.29:907][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 9.06 sec)
+[2024.03.03-13.35.29:919][332]AssetCheck: New page: Asset Save: ABP_ShooterCharacter
+[2024.03.03-13.35.29:919][332]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-13.36.15:877][911]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.36.15:999][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ABP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-13.36.16:008][911]LogSavePackage: Moving output files for package: /Game/ABP_ShooterCharacter
+[2024.03.03-13.36.16:009][911]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/ABP_ShooterCharacterC02440614DE9D233D9955FB294E836CE.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset'
+[2024.03.03-13.36.16:023][911]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 9.21 sec)
+[2024.03.03-13.36.16:033][911]AssetCheck: New page: Asset Save: ABP_ShooterCharacter
+[2024.03.03-13.36.16:033][911]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-13.37.46:615][158]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.37.46:615][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.37.46:658][158]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.37.46:658][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.37.48:105][193]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-13.37.48:106][193]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.37.56:637][699]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2024.03.03-13.37.56:694][699]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.03-13.37.56:695][699]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.03-13.37.56:695][699]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.03-13.38.04:648][950]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.38.04:769][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-13.38.04:774][950]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-13.38.04:775][950]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter2B6E0D43431DE339FFCF5183F18D97AD.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-13.38.04:788][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 9.35 sec)
+[2024.03.03-13.38.04:796][950]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-13.38.04:796][950]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-13.38.08:215][153]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2024.03.03-13.38.10:731][314]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.38.10:731][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.40.03:959][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-13.40.04:088][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ABP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-13.40.04:104][867]LogSavePackage: Moving output files for package: /Game/ABP_ShooterCharacter
+[2024.03.03-13.40.04:105][867]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/ABP_ShooterCharacter3FAF1F44403BFFF0180A4E9E61CD7734.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset'
+[2024.03.03-13.40.04:116][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 9.51 sec)
+[2024.03.03-13.40.04:130][867]AssetCheck: New page: Asset Save: ABP_ShooterCharacter
+[2024.03.03-13.40.04:130][867]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-13.40.04:414][888]BlueprintLog: New page: Compile ABP_ShooterCharacter
+[2024.03.03-13.40.04:637][888]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.03.03-13.40.04:741][890]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:778][891]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:787][892]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:798][893]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:810][894]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:824][895]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:835][896]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:851][897]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:865][898]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:880][899]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:894][900]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:905][901]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:919][902]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:931][903]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:944][904]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.04:957][905]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2024.03.03-13.40.20:728][942]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-13.40.20:736][942]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.03-13.40.20:737][942]LogPlayLevel: [PlayLevel] Compiling BP_ShooterCharacter before play...
+[2024.03.03-13.40.20:807][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.03-13.40.20:810][942]LogPlayLevel: PlayLevel: Blueprint regeneration took 74 ms (1 blueprints)
+[2024.03.03-13.40.20:810][942]PIE: New page: PIE session: Sandbox (3 Mar 2024, 17:40:20)
+[2024.03.03-13.40.20:810][942]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-13.40.21:103][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.293491s)
+[2024.03.03-13.40.21:103][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.293559s)
+[2024.03.03-13.40.21:104][942]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-13.40.21:104][942]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-13.40.21:106][942]LogPlayLevel: PIE: World Init took: (0.002683s)
+[2024.03.03-13.40.21:154][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.03.03-13.40.21:156][942]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.03.03-13.40.21:156][942]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-13.40.21:156][942]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-13.40.21:156][942]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-13.40.21:156][942]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-13.40.21:156][942]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-13.40.21:156][942]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-13.40.21:156][942]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-13.40.21:156][942]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-13.40.21:156][942]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-13.40.21:156][942]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-13.40.21:156][942]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-13.40.21:159][942]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-13.40.21:202][942]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-13.40.21:202][942]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-13.40.21:202][942]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-13.40.21:203][942]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-13.40.21:203][942]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.03.03-13.40.21:203][942]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.03.03-13.40.21:205][942]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.03.03-13.40.21:206][942]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.03.03-13.40.21:206][942]LogInit: FAudioDevice initialized.
+[2024.03.03-13.40.21:206][942]LogAudio: Display: Audio Device (ID: 17) registered with world 'Sandbox'.
+[2024.03.03-13.40.21:210][942]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-13.40.21:264][942]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-15.40.21
+[2024.03.03-13.40.21:283][942]LogWorld: Bringing up level for play took: 0.072159
+[2024.03.03-13.40.21:286][942]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2024.03.03-13.40.21:306][942]PIE: Server logged in
+[2024.03.03-13.40.21:307][942]PIE: Play in editor total start time 0.572 seconds.
+[2024.03.03-13.40.35:353][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-13.40.35:353][ 19]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-13.40.35:355][ 19]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-13.40.35:363][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.40.35:369][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-13.40.35:380][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-13.40.35:421][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-13.40.35:435][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.03.03-13.40.35:437][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.03.03-13.40.35:455][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.03-13.40.35:519][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_47
