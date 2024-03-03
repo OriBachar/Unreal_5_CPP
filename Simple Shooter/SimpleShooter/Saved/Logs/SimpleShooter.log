@@ -2864,3 +2864,145 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.03-13.40.35:437][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
 [2024.03.03-13.40.35:455][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
 [2024.03.03-13.40.35:519][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2024.03.03-14.31.44:607][257]LogDerivedDataCache: C:/Users/oriba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:23.122 and deleted 0 files with total size 0 MiB. Scanned 11905 files in 11638 folders with total size 894 MiB.
+[2024.03.03-15.31.43:666][ 52]LogDerivedDataCache: C:/Users/oriba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:22.182 and deleted 0 files with total size 0 MiB. Scanned 11905 files in 11638 folders with total size 894 MiB.
+[2024.03.03-16.31.44:541][852]LogDerivedDataCache: C:/Users/oriba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:23.057 and deleted 0 files with total size 0 MiB. Scanned 11905 files in 11638 folders with total size 894 MiB.
+[2024.03.03-17.31.44:627][650]LogDerivedDataCache: C:/Users/oriba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:23.142 and deleted 0 files with total size 0 MiB. Scanned 11905 files in 11638 folders with total size 894 MiB.
+[2024.03.03-18.02.42:918][647]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.03.03-18.02.42:918][647]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.03.03-18.02.47:212][911]LogSlate: Took 0.050843 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.03.03-18.02.47:212][911]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ן (U+05df)'
+[2024.03.03-18.02.47:248][911]LogSlate: Took 0.034907 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2024.03.03-18.02.48:492][  2]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.03.03-18.02.48:492][  2]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.03.03-18.04.12:381][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.03.03-18.04.12:386][346]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sandbox' took 0.435
+[2024.03.03-18.04.12:389][346]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ABP_ShooterCharacter] ([2] browsable assets)...
+[2024.03.03-18.04.12:401][346]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter]
+[2024.03.03-18.04.12:401][346]OBJ SavePackage: Finished generating thumbnails for package [/Game/ABP_ShooterCharacter]
+[2024.03.03-18.04.12:411][346]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ABP_ShooterCharacter_Auto3
+[2024.03.03-18.04.12:411][346]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/ABP_ShooterCharacter_Auto340D7241041CC18D4933EC9B0D4F37372.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/Autosaves/Game/ABP_ShooterCharacter_Auto3.uasset'
+[2024.03.03-18.04.12:412][346]LogFileHelpers: Auto-saving content packages took 0.023
+[2024.03.03-18.06.10:093][ 63]BlueprintLog: New page: Compile ABP_ShooterCharacter
+[2024.03.03-18.06.10:160][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.03-18.06.11:593][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-18.06.11:696][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ABP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-18.06.11:706][187]LogSavePackage: Moving output files for package: /Game/ABP_ShooterCharacter
+[2024.03.03-18.06.11:706][187]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/ABP_ShooterCharacterB8CEA5734839E23F65377FB78F40B7F7.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset'
+[2024.03.03-18.06.11:716][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 9.63 sec)
+[2024.03.03-18.06.11:729][187]AssetCheck: New page: Asset Save: ABP_ShooterCharacter
+[2024.03.03-18.06.11:729][187]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2024.03.03-18.06.18:170][340]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-18.06.18:179][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.03-18.06.18:179][340]PIE: New page: PIE session: Sandbox (3 Mar 2024, 22:06:18)
+[2024.03.03-18.06.18:180][340]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-18.06.18:459][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.278864s)
+[2024.03.03-18.06.18:459][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.278952s)
+[2024.03.03-18.06.18:459][340]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-18.06.18:460][340]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-18.06.18:462][340]LogPlayLevel: PIE: World Init took: (0.002703s)
+[2024.03.03-18.06.18:499][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.03.03-18.06.18:502][340]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.03.03-18.06.18:502][340]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-18.06.18:502][340]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-18.06.18:502][340]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-18.06.18:502][340]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-18.06.18:502][340]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-18.06.18:502][340]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-18.06.18:502][340]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-18.06.18:502][340]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-18.06.18:502][340]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-18.06.18:502][340]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-18.06.18:502][340]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-18.06.18:556][340]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-18.06.18:593][340]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-18.06.18:593][340]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-18.06.18:593][340]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-18.06.18:593][340]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-18.06.18:594][340]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.03.03-18.06.18:594][340]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.03.03-18.06.18:596][340]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.03.03-18.06.18:596][340]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.03.03-18.06.18:596][340]LogInit: FAudioDevice initialized.
+[2024.03.03-18.06.18:596][340]LogAudio: Display: Audio Device (ID: 18) registered with world 'Sandbox'.
+[2024.03.03-18.06.18:600][340]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-18.06.18:647][340]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-20.06.18
+[2024.03.03-18.06.18:664][340]LogWorld: Bringing up level for play took: 0.063329
+[2024.03.03-18.06.18:666][340]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.03.03-18.06.18:671][340]PIE: Server logged in
+[2024.03.03-18.06.18:672][340]PIE: Play in editor total start time 0.493 seconds.
+[2024.03.03-18.06.54:668][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-18.06.54:668][284]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-18.06.54:670][284]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-18.06.54:678][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-18.06.54:684][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-18.06.54:693][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-18.06.54:746][284]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.03-18.06.54:747][284]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.03.03-18.06.54:750][284]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.03.03-18.06.54:755][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-18.06.54:769][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.03.03-18.06.54:845][285]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.03.03-18.09.05:448][724]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-18.09.05:448][724]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-18.09.05:464][724]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.03-18.09.05:655][724]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-18.09.05:825][724]LogViewport: Scene viewport resized to 1141x534, mode Windowed.
+[2024.03.03-18.09.05:841][724]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.03.03-18.15.57:500][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-18.15.57:619][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2024.03.03-18.15.57:626][519]LogSavePackage: Moving output files for package: /Game/BS_Locomotion
+[2024.03.03-18.15.57:626][519]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BS_LocomotionE9CACAF84884E2B6B5BA79AE7AB05268.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2024.03.03-18.15.57:640][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 9.77 sec)
+[2024.03.03-18.15.57:654][519]AssetCheck: New page: Asset Save: BS_Locomotion
+[2024.03.03-18.15.57:654][519]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2024.03.03-18.16.16:861][750]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-18.16.16:870][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.03-18.16.16:870][750]PIE: New page: PIE session: Sandbox (3 Mar 2024, 22:16:16)
+[2024.03.03-18.16.16:870][750]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-18.16.17:176][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.305623s)
+[2024.03.03-18.16.17:176][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.305712s)
+[2024.03.03-18.16.17:177][750]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-18.16.17:177][750]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-18.16.17:178][750]LogPlayLevel: PIE: World Init took: (0.001813s)
+[2024.03.03-18.16.17:220][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.03-18.16.17:223][750]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.03.03-18.16.17:223][750]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-18.16.17:223][750]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-18.16.17:223][750]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-18.16.17:223][750]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-18.16.17:223][750]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-18.16.17:223][750]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-18.16.17:223][750]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-18.16.17:223][750]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-18.16.17:224][750]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-18.16.17:224][750]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-18.16.17:224][750]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-18.16.17:226][750]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-18.16.17:256][750]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-18.16.17:256][750]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-18.16.17:256][750]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-18.16.17:256][750]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-18.16.17:257][750]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.03.03-18.16.17:257][750]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.03.03-18.16.17:259][750]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.03.03-18.16.17:259][750]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.03.03-18.16.17:259][750]LogInit: FAudioDevice initialized.
+[2024.03.03-18.16.17:259][750]LogAudio: Display: Audio Device (ID: 19) registered with world 'Sandbox'.
+[2024.03.03-18.16.17:263][750]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-18.16.17:319][750]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-20.16.17
+[2024.03.03-18.16.17:337][750]LogWorld: Bringing up level for play took: 0.073242
+[2024.03.03-18.16.17:340][750]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2024.03.03-18.16.17:345][750]PIE: Server logged in
+[2024.03.03-18.16.17:346][750]PIE: Play in editor total start time 0.476 seconds.
+[2024.03.03-18.16.39:087][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-18.16.39:087][260]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-18.16.39:089][260]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-18.16.39:099][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-18.16.39:104][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-18.16.39:118][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-18.16.39:161][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-18.16.39:179][260]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.03.03-18.16.39:181][260]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.03.03-18.16.39:200][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.03.03-18.16.39:272][261]LogPlayLevel: Display: Destroying online subsystem :Context_51
