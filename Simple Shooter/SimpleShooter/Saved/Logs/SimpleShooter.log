@@ -1849,3 +1849,484 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.03-11.49.22:236][ 73]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
 [2024.03.03-11.49.39:502][481]BlueprintLog: New page: Compile BP_ShooterCharacter
 [2024.03.03-11.49.39:681][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: ================================================
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Total job queries 325, among them cache hits 50 (15.38%)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Tracking 273 distinct input hashes that result in 227 distinct outputs (83.15%)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: RAM used: 2.09 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.13%
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Shaders Compiled: 91
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Jobs assigned 93, completed 91 (97.85%)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Average time worker was idle: 172.42 s
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Time job spent in pending queue: average 2.52 s, longest 11.91 s
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Job execution time: average 1.99 s, max 9.55 s
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Job life time (pending + execution): average 4.56 s, max 13.04
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 31.97 s
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Jobs were issued in 93 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Average processing rate: 2.85 jobs/sec
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Total thread time: 105.80 s
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Total thread preprocess time: 6.39 s
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Percentage time preprocessing: 6.04%
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Effective parallelization: 3.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 2.54 sec, max 3.78 sec, min 1.31 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    5 times, average 2.47 sec, max 4.92 sec, min 0.62 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   13 times, average 1.96 sec, max 4.51 sec, min 0.87 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   15 times, average 1.79 sec, max 6.60 sec, min 0.91 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    5 times, average 1.29 sec, max 2.77 sec, min 0.40 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.38% of total time (compiled   15 times, average 1.79 sec, max 6.60 sec, min 0.91 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.13% of total time (compiled   13 times, average 1.96 sec, max 4.51 sec, min 0.87 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:                                                  FHitProxyVS - 11.67% of total time (compiled    5 times, average 2.47 sec, max 4.92 sec, min 0.62 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 9.53% of total time (compiled    9 times, average 1.12 sec, max 1.60 sec, min 0.87 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.02% of total time (compiled    7 times, average 1.06 sec, max 1.36 sec, min 0.88 sec)
+[2024.03.03-12.15.58:878][860]LogShaderCompilers: Display: ================================================
+[2024.03.03-12.17.03:295][483]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.17.03:411][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.17.03:415][483]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.17.03:415][483]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter154593C64FB5EDD93CCBD386EA0A201D.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.17.03:425][483]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 5.42 sec)
+[2024.03.03-12.17.03:441][483]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.17.03:441][483]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.17.07:642][824]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2024.03.03-12.17.07:777][824]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2024.03.03-12.17.11:150][ 91]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-12.17.11:162][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.03-12.17.11:163][ 91]PIE: New page: PIE session: Sandbox (3 Mar 2024, 16:17:11)
+[2024.03.03-12.17.11:201][ 91]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.17.11:500][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.298904s)
+[2024.03.03-12.17.11:500][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.299024s)
+[2024.03.03-12.17.11:500][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.17.11:500][ 91]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-12.17.11:502][ 91]LogPlayLevel: PIE: World Init took: (0.002128s)
+[2024.03.03-12.17.11:560][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.03.03-12.17.11:562][ 91]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.03.03-12.17.11:562][ 91]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-12.17.11:562][ 91]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-12.17.11:562][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-12.17.11:562][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-12.17.11:562][ 91]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-12.17.11:562][ 91]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-12.17.11:563][ 91]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-12.17.11:563][ 91]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-12.17.11:563][ 91]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-12.17.11:563][ 91]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-12.17.11:563][ 91]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-12.17.11:565][ 91]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-12.17.11:596][ 91]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-12.17.11:596][ 91]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-12.17.11:596][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-12.17.11:596][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-12.17.11:597][ 91]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.03.03-12.17.11:597][ 91]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.03.03-12.17.11:598][ 91]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.03.03-12.17.11:598][ 91]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.03.03-12.17.11:598][ 91]LogInit: FAudioDevice initialized.
+[2024.03.03-12.17.11:598][ 91]LogAudio: Display: Audio Device (ID: 9) registered with world 'Sandbox'.
+[2024.03.03-12.17.11:603][ 91]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-12.17.11:647][ 91]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-14.17.11
+[2024.03.03-12.17.11:665][ 91]LogWorld: Bringing up level for play took: 0.061744
+[2024.03.03-12.17.11:667][ 91]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.03.03-12.17.11:672][ 91]PIE: Server logged in
+[2024.03.03-12.17.11:673][ 91]PIE: Play in editor total start time 0.513 seconds.
+[2024.03.03-12.17.26:121][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.17.26:121][160]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.17.26:123][160]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-12.17.26:133][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.17.26:146][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-12.17.26:160][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.17.26:235][160]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.03-12.17.26:236][160]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.03-12.17.26:237][160]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.03-12.17.26:241][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.17.26:256][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2024.03.03-12.17.26:323][161]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.03.03-12.18.10:035][816]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.18.10:143][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.18.10:149][816]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.18.10:149][816]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter948DEC5D4D0C93DFCF8E849CFA9848DF.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.18.10:159][816]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 5.55 sec)
+[2024.03.03-12.18.10:173][816]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.18.10:173][816]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.18.14:033][  8]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-12.18.14:039][  8]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.03-12.18.14:040][  8]LogPlayLevel: [PlayLevel] Compiling BP_ShooterCharacter before play...
+[2024.03.03-12.18.14:151][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2024.03.03-12.18.14:154][  8]LogPlayLevel: PlayLevel: Blueprint regeneration took 114 ms (1 blueprints)
+[2024.03.03-12.18.14:154][  8]PIE: New page: PIE session: Sandbox (3 Mar 2024, 16:18:14)
+[2024.03.03-12.18.14:154][  8]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.18.14:435][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.280594s)
+[2024.03.03-12.18.14:435][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.280694s)
+[2024.03.03-12.18.14:435][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.18.14:436][  8]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-12.18.14:437][  8]LogPlayLevel: PIE: World Init took: (0.001703s)
+[2024.03.03-12.18.14:490][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.03.03-12.18.14:491][  8]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.03.03-12.18.14:491][  8]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-12.18.14:491][  8]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-12.18.14:491][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-12.18.14:491][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-12.18.14:491][  8]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-12.18.14:491][  8]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-12.18.14:491][  8]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-12.18.14:491][  8]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-12.18.14:491][  8]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-12.18.14:492][  8]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-12.18.14:492][  8]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-12.18.14:493][  8]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-12.18.14:522][  8]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-12.18.14:522][  8]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-12.18.14:522][  8]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-12.18.14:522][  8]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-12.18.14:523][  8]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.03.03-12.18.14:523][  8]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.03.03-12.18.14:524][  8]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.03.03-12.18.14:524][  8]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.03.03-12.18.14:525][  8]LogInit: FAudioDevice initialized.
+[2024.03.03-12.18.14:525][  8]LogAudio: Display: Audio Device (ID: 10) registered with world 'Sandbox'.
+[2024.03.03-12.18.14:530][  8]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-12.18.14:571][  8]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-14.18.14
+[2024.03.03-12.18.14:587][  8]LogWorld: Bringing up level for play took: 0.058107
+[2024.03.03-12.18.14:591][  8]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.03.03-12.18.14:595][  8]PIE: Server logged in
+[2024.03.03-12.18.14:596][  8]PIE: Play in editor total start time 0.556 seconds.
+[2024.03.03-12.18.26:710][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.18.26:710][  2]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.18.26:712][  2]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-12.18.26:719][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.18.26:725][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-12.18.26:737][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.18.26:798][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.18.26:805][  2]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.03-12.18.26:807][  2]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.03-12.18.26:836][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2024.03.03-12.18.26:912][  3]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.03.03-12.20.09:729][568]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.20.09:843][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.20.09:850][568]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.20.09:850][568]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter83AC6F1F45D9A8E610C590A3007CAF1C.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.20.09:861][568]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 5.68 sec)
+[2024.03.03-12.20.09:882][568]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.20.09:882][568]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.20.41:520][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.20.41:622][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.20.41:625][471]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.20.41:626][471]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter0CA643D44BBC4FCEA1026AAE1F3D21C6.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.20.41:637][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 5.80 sec)
+[2024.03.03-12.20.41:649][471]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.20.41:649][471]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.20.44:049][646]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-12.20.44:057][646]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.03-12.20.44:058][646]LogPlayLevel: [PlayLevel] Compiling BP_ShooterCharacter before play...
+[2024.03.03-12.20.44:174][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2024.03.03-12.20.44:180][646]LogPlayLevel: PlayLevel: Blueprint regeneration took 122 ms (1 blueprints)
+[2024.03.03-12.20.44:180][646]PIE: New page: PIE session: Sandbox (3 Mar 2024, 16:20:44)
+[2024.03.03-12.20.44:210][646]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.20.44:494][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.284407s)
+[2024.03.03-12.20.44:494][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.284454s)
+[2024.03.03-12.20.44:494][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.20.44:495][646]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-12.20.44:496][646]LogPlayLevel: PIE: World Init took: (0.002004s)
+[2024.03.03-12.20.44:550][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.03.03-12.20.44:550][646]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.03.03-12.20.44:551][646]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-12.20.44:551][646]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-12.20.44:551][646]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-12.20.44:551][646]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-12.20.44:551][646]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-12.20.44:551][646]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-12.20.44:551][646]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-12.20.44:551][646]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-12.20.44:551][646]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-12.20.44:551][646]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-12.20.44:551][646]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-12.20.44:553][646]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-12.20.44:581][646]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-12.20.44:581][646]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-12.20.44:581][646]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-12.20.44:582][646]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-12.20.44:582][646]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.03.03-12.20.44:582][646]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.03.03-12.20.44:584][646]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.03.03-12.20.44:584][646]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.03.03-12.20.44:584][646]LogInit: FAudioDevice initialized.
+[2024.03.03-12.20.44:584][646]LogAudio: Display: Audio Device (ID: 11) registered with world 'Sandbox'.
+[2024.03.03-12.20.44:589][646]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-12.20.44:628][646]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-14.20.44
+[2024.03.03-12.20.44:645][646]LogWorld: Bringing up level for play took: 0.056131
+[2024.03.03-12.20.44:647][646]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.03.03-12.20.44:651][646]PIE: Server logged in
+[2024.03.03-12.20.44:652][646]PIE: Play in editor total start time 0.595 seconds.
+[2024.03.03-12.21.00:160][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.21.00:160][784]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.21.00:162][784]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-12.21.00:169][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.21.00:175][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-12.21.00:187][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.21.00:250][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.21.00:257][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.03-12.21.00:259][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.03-12.21.00:278][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2024.03.03-12.21.00:347][785]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.03.03-12.21.24:391][606]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.21.24:507][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.21.24:512][606]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.21.24:512][606]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacterAA3EE0E94E0858080A31B0942F511834.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.21.24:524][606]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 5.93 sec)
+[2024.03.03-12.21.24:535][606]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.21.24:535][606]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.22.05:777][688]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.22.05:888][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.22.05:891][688]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.22.05:892][688]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter3E438C1541A9054CB66234AD85756E72.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.22.05:903][688]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 6.06 sec)
+[2024.03.03-12.22.05:914][688]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.22.05:914][688]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.22.08:574][857]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-12.22.08:582][857]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.03-12.22.08:583][857]LogPlayLevel: [PlayLevel] Compiling BP_ShooterCharacter before play...
+[2024.03.03-12.22.08:730][857]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2024.03.03-12.22.08:734][857]LogPlayLevel: PlayLevel: Blueprint regeneration took 151 ms (1 blueprints)
+[2024.03.03-12.22.08:734][857]PIE: New page: PIE session: Sandbox (3 Mar 2024, 16:22:08)
+[2024.03.03-12.22.08:734][857]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.22.09:021][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.287123s)
+[2024.03.03-12.22.09:021][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.287197s)
+[2024.03.03-12.22.09:021][857]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.22.09:022][857]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-12.22.09:023][857]LogPlayLevel: PIE: World Init took: (0.001858s)
+[2024.03.03-12.22.09:084][857]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2024.03.03-12.22.09:085][857]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.03.03-12.22.09:085][857]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-12.22.09:085][857]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-12.22.09:085][857]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-12.22.09:085][857]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-12.22.09:085][857]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-12.22.09:085][857]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-12.22.09:085][857]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-12.22.09:085][857]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-12.22.09:086][857]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-12.22.09:086][857]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-12.22.09:086][857]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-12.22.09:089][857]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-12.22.09:121][857]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-12.22.09:122][857]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-12.22.09:122][857]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-12.22.09:122][857]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-12.22.09:122][857]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.03.03-12.22.09:122][857]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.03.03-12.22.09:124][857]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.03.03-12.22.09:124][857]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.03.03-12.22.09:124][857]LogInit: FAudioDevice initialized.
+[2024.03.03-12.22.09:124][857]LogAudio: Display: Audio Device (ID: 12) registered with world 'Sandbox'.
+[2024.03.03-12.22.09:130][857]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-12.22.09:186][857]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-14.22.09
+[2024.03.03-12.22.09:203][857]LogWorld: Bringing up level for play took: 0.073592
+[2024.03.03-12.22.09:206][857]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.03.03-12.22.09:211][857]PIE: Server logged in
+[2024.03.03-12.22.09:211][857]PIE: Play in editor total start time 0.629 seconds.
+[2024.03.03-12.22.15:250][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.22.15:250][271]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.22.15:252][271]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-12.22.15:259][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.22.15:265][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-12.22.15:278][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.22.15:342][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.22.15:355][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.03-12.22.15:356][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.03-12.22.15:376][271]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2024.03.03-12.22.15:434][272]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.03.03-12.22.35:444][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.22.35:627][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.22.35:631][288]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.22.35:631][288]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacterA8FC8FAF43A32F4E91889CA10734F2F4.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.22.35:642][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 6.25 sec)
+[2024.03.03-12.22.35:656][288]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.22.35:656][288]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.22.40:460][637]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-12.22.40:469][637]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.03-12.22.40:470][637]LogPlayLevel: [PlayLevel] Compiling BP_ShooterCharacter before play...
+[2024.03.03-12.22.40:582][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2024.03.03-12.22.40:586][637]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2024.03.03-12.22.40:586][637]PIE: New page: PIE session: Sandbox (3 Mar 2024, 16:22:40)
+[2024.03.03-12.22.40:586][637]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.22.40:871][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.285111s)
+[2024.03.03-12.22.40:871][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.285179s)
+[2024.03.03-12.22.40:871][637]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.22.40:872][637]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-12.22.40:873][637]LogPlayLevel: PIE: World Init took: (0.001800s)
+[2024.03.03-12.22.40:942][637]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2024.03.03-12.22.40:943][637]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.03.03-12.22.40:943][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-12.22.40:943][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-12.22.40:943][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-12.22.40:943][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-12.22.40:943][637]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-12.22.40:943][637]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-12.22.40:943][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-12.22.40:943][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-12.22.40:943][637]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-12.22.40:943][637]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-12.22.40:943][637]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-12.22.40:945][637]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-12.22.40:977][637]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-12.22.40:977][637]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-12.22.40:977][637]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-12.22.40:977][637]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-12.22.40:978][637]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.03.03-12.22.40:978][637]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.03.03-12.22.40:980][637]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.03.03-12.22.40:980][637]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.03.03-12.22.40:980][637]LogInit: FAudioDevice initialized.
+[2024.03.03-12.22.40:980][637]LogAudio: Display: Audio Device (ID: 13) registered with world 'Sandbox'.
+[2024.03.03-12.22.40:984][637]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-12.22.41:025][637]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-14.22.41
+[2024.03.03-12.22.41:042][637]LogWorld: Bringing up level for play took: 0.057401
+[2024.03.03-12.22.41:044][637]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.03.03-12.22.41:048][637]PIE: Server logged in
+[2024.03.03-12.22.41:048][637]PIE: Play in editor total start time 0.58 seconds.
+[2024.03.03-12.22.52:040][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.22.52:040][426]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.22.52:042][426]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-12.22.52:048][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.22.52:054][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-12.22.52:066][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.22.52:124][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.22.52:136][426]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.03-12.22.52:138][426]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.03-12.22.52:156][426]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2024.03.03-12.22.52:216][427]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.03.03-12.23.07:289][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.23.07:409][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.23.07:414][187]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.23.07:415][187]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacterA1005B9C4BC28041091B989104D2A04A.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.23.07:427][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 6.39 sec)
+[2024.03.03-12.23.07:438][187]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.23.07:438][187]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.23.10:362][373]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-12.23.10:371][373]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.03-12.23.10:371][373]LogPlayLevel: [PlayLevel] Compiling BP_ShooterCharacter before play...
+[2024.03.03-12.23.10:486][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.03.03-12.23.10:488][373]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2024.03.03-12.23.10:488][373]PIE: New page: PIE session: Sandbox (3 Mar 2024, 16:23:10)
+[2024.03.03-12.23.10:488][373]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.23.10:849][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.360294s)
+[2024.03.03-12.23.10:849][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.360345s)
+[2024.03.03-12.23.10:849][373]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.23.10:850][373]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-12.23.10:852][373]LogPlayLevel: PIE: World Init took: (0.002893s)
+[2024.03.03-12.23.10:923][373]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2024.03.03-12.23.10:924][373]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.03.03-12.23.10:924][373]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-12.23.10:924][373]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-12.23.10:924][373]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-12.23.10:924][373]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-12.23.10:924][373]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-12.23.10:924][373]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-12.23.10:924][373]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-12.23.10:924][373]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-12.23.10:925][373]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-12.23.10:925][373]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-12.23.10:925][373]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-12.23.10:929][373]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-12.23.10:968][373]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-12.23.10:970][373]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-12.23.10:970][373]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-12.23.10:970][373]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-12.23.10:970][373]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.03.03-12.23.10:970][373]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.03.03-12.23.10:972][373]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.03.03-12.23.10:973][373]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.03.03-12.23.10:973][373]LogInit: FAudioDevice initialized.
+[2024.03.03-12.23.10:973][373]LogAudio: Display: Audio Device (ID: 14) registered with world 'Sandbox'.
+[2024.03.03-12.23.10:978][373]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-12.23.11:038][373]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-14.23.11
+[2024.03.03-12.23.11:057][373]LogWorld: Bringing up level for play took: 0.078976
+[2024.03.03-12.23.11:060][373]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.03.03-12.23.11:066][373]PIE: Server logged in
+[2024.03.03-12.23.11:067][373]PIE: Play in editor total start time 0.697 seconds.
+[2024.03.03-12.23.30:430][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.23.30:430][520]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.23.30:434][520]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-12.23.30:442][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.23.30:449][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-12.23.30:463][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.23.30:531][520]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.03-12.23.30:532][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.03.03-12.23.30:534][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.03.03-12.23.30:538][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.23.30:566][520]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2024.03.03-12.23.30:638][521]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.03.03-12.24.41:959][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.24.42:061][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.24.42:064][981]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.24.42:065][981]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacter904AA08E478525838139EA92D18164BE.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.24.42:077][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 6.51 sec)
+[2024.03.03-12.24.42:087][981]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.24.42:087][981]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.26.20:345][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.26.20:465][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.26.20:471][ 52]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.26.20:472][ 52]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacterD2886EE343024D5724AAB297823F191D.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.26.20:485][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 6.65 sec)
+[2024.03.03-12.26.20:499][ 52]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.26.20:499][ 52]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.26.33:854][359]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-12.26.33:961][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2024.03.03-12.26.33:967][359]LogSavePackage: Moving output files for package: /Game/BP_ShooterCharacter
+[2024.03.03-12.26.33:967][359]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_ShooterCharacterC304F7A84BD3ACB4E0A07EBA405C396A.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2024.03.03-12.26.33:978][359]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 6.78 sec)
+[2024.03.03-12.26.33:991][359]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2024.03.03-12.26.33:991][359]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2024.03.03-12.26.45:220][240]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.03-12.26.45:228][240]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.03-12.26.45:229][240]LogPlayLevel: [PlayLevel] Compiling BP_ShooterCharacter before play...
+[2024.03.03-12.26.45:329][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2024.03.03-12.26.45:333][240]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
+[2024.03.03-12.26.45:333][240]PIE: New page: PIE session: Sandbox (3 Mar 2024, 16:26:45)
+[2024.03.03-12.26.45:333][240]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.26.45:638][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.305755s)
+[2024.03.03-12.26.45:638][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandbox.Sandbox to /Game/UEDPIE_0_Sandbox.Sandbox (0.305837s)
+[2024.03.03-12.26.45:638][240]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-12.26.45:639][240]LogAIModule: Creating AISystem for world Sandbox
+[2024.03.03-12.26.45:641][240]LogPlayLevel: PIE: World Init took: (0.003109s)
+[2024.03.03-12.26.45:708][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.03.03-12.26.45:709][240]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.03.03-12.26.45:709][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.03-12.26.45:709][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.03-12.26.45:709][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.03-12.26.45:709][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.03-12.26.45:709][240]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.03-12.26.45:709][240]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.03-12.26.45:709][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.03-12.26.45:710][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.03-12.26.45:710][240]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.03-12.26.45:710][240]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.03-12.26.45:710][240]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.03-12.26.45:712][240]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.03-12.26.45:744][240]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Sharkoon SB1)
+[2024.03.03-12.26.45:745][240]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.03-12.26.45:745][240]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.03-12.26.45:745][240]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.03-12.26.45:746][240]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.03.03-12.26.45:746][240]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.03.03-12.26.45:747][240]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.03.03-12.26.45:747][240]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.03.03-12.26.45:747][240]LogInit: FAudioDevice initialized.
+[2024.03.03-12.26.45:747][240]LogAudio: Display: Audio Device (ID: 15) registered with world 'Sandbox'.
+[2024.03.03-12.26.45:752][240]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2024.03.03-12.26.45:795][240]LogWorld: Bringing World /Game/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2024.03.03-14.26.45
+[2024.03.03-12.26.45:812][240]LogWorld: Bringing up level for play took: 0.059938
+[2024.03.03-12.26.45:814][240]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.03.03-12.26.45:820][240]PIE: Server logged in
+[2024.03.03-12.26.45:821][240]PIE: Play in editor total start time 0.593 seconds.
+[2024.03.03-12.26.53:298][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.26.53:298][813]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Sandbox
+[2024.03.03-12.26.53:301][813]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.03.03-12.26.53:306][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.26.53:313][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.03-12.26.53:324][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.03-12.26.53:388][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.03-12.26.53:406][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.03.03-12.26.53:409][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.03.03-12.26.53:427][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.03.03-12.26.53:494][814]LogPlayLevel: Display: Destroying online subsystem :Context_22
