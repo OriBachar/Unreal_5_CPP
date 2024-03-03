@@ -3006,3 +3006,144 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.03-18.16.39:181][260]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
 [2024.03.03-18.16.39:200][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
 [2024.03.03-18.16.39:272][261]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2024.03.03-18.20.56:358][488]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2024.03.03-18.20.56:358][488]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2024.03.03-18.20.56:360][488]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/Sandbox.Sandbox:PersistentLevel.Actor_0
+[2024.03.03-18.20.56:361][488]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/Sandbox.Sandbox:PersistentLevel.Actor_0
+[2024.03.03-18.21.36:613][951]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.03-18.21.36:710][951]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.03.03-18.22.04:753][ 47]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_5.lib and object D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_5.exp
+[2024.03.03-18.22.05:214][ 49]LogClass: UPackage /Script/SimpleShooter Reload.
+[2024.03.03-18.22.05:214][ 49]LogClass: Could not find existing class Gun in package /Script/SimpleShooter for reload, assuming new or modified class
+[2024.03.03-18.22.05:500][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.03-18.22.06:047][ 50]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class unchanged
+[2024.03.03-18.22.06:048][ 50]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.03.03-18.22.23:745][443]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.03-18.22.23:745][443]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.03-18.22.23:745][443]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.03-18.22.39:248][443]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.03-18.22.39:260][443]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.03.03-18.22.39:267][443]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.03.03-18.22.39:279][444]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.03.03-18.22.46:870][849]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Gun
+[2024.03.03-18.22.46:879][849]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.03.03-18.22.55:345][946]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Gun.BP_Gun
+[2024.03.03-18.22.55:346][946]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.03-18.22.56:420][946]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2024.03.03-18.22.58:403][999]LogViewport: Scene viewport resized to 1139x705, mode Windowed.
+[2024.03.03-18.22.58:538][  1]LogViewport: Scene viewport resized to 467x224, mode Windowed.
+[2024.03.03-18.22.58:580][  2]LogViewport: Scene viewport resized to 467x223, mode Windowed.
+[2024.03.03-18.22.58:988][ 17]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2024.03.03-18.22.59:585][ 59]LogSlate: Window 'BP_Gun' being destroyed
+[2024.03.03-18.23.00:697][147]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-18.23.00:814][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Gun" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_Gun.uasset" SILENT=true
+[2024.03.03-18.23.00:818][147]LogSavePackage: Moving output files for package: /Game/BP_Gun
+[2024.03.03-18.23.00:818][147]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_GunE7B96CC146B1D2ECB9553AAADDCD89CE.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_Gun.uasset'
+[2024.03.03-18.23.00:829][147]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 9.90 sec)
+[2024.03.03-18.23.00:843][147]AssetCheck: New page: Asset Save: BP_Gun
+[2024.03.03-18.23.00:843][147]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Gun.BP_Gun
+[2024.03.03-18.31.43:705][777]LogDerivedDataCache: C:/Users/oriba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:22.219 and deleted 0 files with total size 0 MiB. Scanned 11905 files in 11638 folders with total size 894 MiB.
+[2024.03.03-18.37.55:565][171]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.03-18.38.06:945][752]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_6.lib and object D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_6.exp
+[2024.03.03-18.38.07:110][755]LogClass: UPackage /Script/SimpleShooter Reload.
+[2024.03.03-18.38.07:110][755]LogClass: UClass Gun Reload.
+[2024.03.03-18.38.07:110][755]LogClass: Could not find existing class Gun in package /Script/SimpleShooter for reload, assuming new or modified class
+[2024.03.03-18.38.07:128][755]Re-instancing Gun after reload.
+[2024.03.03-18.38.07:383][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2024.03.03-18.38.07:839][756]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.03.03-18.38.07:839][756]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.03.03-18.38.48:019][768]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/MagGun_Decals.MagGun_Decals (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.48:101][768]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/MaterialLayers/T_PaintedMetal01_N.T_PaintedMetal01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 336.562488 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.48:125][768]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/MaterialLayers/T_ExampleLayers_Metal02_N.T_ExampleLayers_Metal02_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 336.562488 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.48:220][768]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/MaterialLayers/T_PaintedMetal02.T_PaintedMetal02 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.48:239][768]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Characters/Textures/Chr_FPS_Metal_02.Chr_FPS_Metal_02 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.48:357][768]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Rifle) ...
+[2024.03.03-18.38.48:430][768]LogSkeletalMesh: Building Skeletal Mesh Rifle...
+[2024.03.03-18.38.48:463][768]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/MaterialLayers/T_Metal_Metal02_D.T_Metal_Metal02_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.48:468][768]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/MaterialLayers/T_Rubber.T_Rubber (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.48:475][768]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/AssetPacks/ShooterGame/Weapons/Rifle.Rifle
+[2024.03.03-18.38.48:651][769]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/MagGun_01_N.MagGun_01_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.49:097][792]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/MagGunT1_section.MagGunT1_section (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.50:167][858]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/MagGun_Display_EM.MagGun_Display_EM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.50:641][890]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Environment/Textures/holo_layer_1_5.holo_layer_1_5 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.50:720][895]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/SightLens_maskA.SightLens_maskA (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.50:805][900]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/SightLens_maskB.SightLens_maskB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.50:872][904]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/MagGunT2_section.MagGunT2_section (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.51:102][915]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/MagGun_02_N.MagGun_02_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.51:422][934]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/MagGunT2_shade.MagGunT2_shade (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.51:777][938]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Weapons/Textures/MagGunT1_shade.MagGunT1_shade (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: ================================================
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: Total job queries 352, among them cache hits 57 (16.19%)
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: Tracking 291 distinct input hashes that result in 238 distinct outputs (81.79%)
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: RAM used: 2.22 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.14%
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: Shaders Compiled: 107
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: Jobs assigned 111, completed 107 (96.40%)
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: Average time worker was idle: 1855.98 s
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: Time job spent in pending queue: average 2.12 s, longest 11.91 s
+[2024.03.03-18.38.54:769][ 98]LogShaderCompilers: Display: Job execution time: average 2.16 s, max 9.55 s
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Job life time (pending + execution): average 4.35 s, max 13.04
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 45.45 s
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Jobs were issued in 111 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Average processing rate: 2.35 jobs/sec
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Total thread time: 133.20 s
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Total thread preprocess time: 8.09 s
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Percentage time preprocessing: 6.07%
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Effective parallelization: 2.93 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 2.54 sec, max 3.78 sec, min 1.31 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    5 times, average 2.47 sec, max 4.92 sec, min 0.62 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   18 times, average 1.91 sec, max 4.51 sec, min 0.87 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   22 times, average 1.72 sec, max 6.60 sec, min 0.85 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    9 times, average 1.30 sec, max 2.20 sec, min 0.88 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.37% of total time (compiled   22 times, average 1.72 sec, max 6.60 sec, min 0.85 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.85% of total time (compiled   18 times, average 1.91 sec, max 4.51 sec, min 0.87 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:                                                  FHitProxyVS - 9.27% of total time (compiled    5 times, average 2.47 sec, max 4.92 sec, min 0.62 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.78% of total time (compiled    9 times, average 1.30 sec, max 2.20 sec, min 0.88 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 7.57% of total time (compiled    9 times, average 1.12 sec, max 1.60 sec, min 0.87 sec)
+[2024.03.03-18.38.54:770][ 98]LogShaderCompilers: Display: ================================================
+[2024.03.03-18.38.58:783][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-18.38.59:005][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Gun" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_Gun.uasset" SILENT=true
+[2024.03.03-18.38.59:008][368]LogSavePackage: Moving output files for package: /Game/BP_Gun
+[2024.03.03-18.38.59:008][368]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_Gun0B3F923846EF9368446C069F94871E97.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_Gun.uasset'
+[2024.03.03-18.38.59:018][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 234 ms (total: 10.1 sec)
+[2024.03.03-18.38.59:030][368]AssetCheck: New page: Asset Save: BP_Gun
+[2024.03.03-18.38.59:030][368]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Gun.BP_Gun
+[2024.03.03-18.39.27:702][411]LogContentBrowser: Attempting asset rename: BP_Gun -> BP_Rifle
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.SKEL_BP_Rifle_C' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle_C' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.SKEL_BP_Rifle_C:ReceiveBeginPlay' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.SKEL_BP_Rifle_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.SKEL_BP_Rifle_C:ReceiveTick' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogMetaData: Removing '/Game/BP_Rifle.SKEL_BP_Rifle_C:UserConstructionScript' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2024.03.03-18.39.27:732][411]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-18.39.27:841][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Rifle" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_Rifle.uasset" SILENT=true
+[2024.03.03-18.39.27:844][411]LogSavePackage: Moving output files for package: /Game/BP_Rifle
+[2024.03.03-18.39.27:844][411]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_Rifle402B1395451A3FAE0959E2941F6FAB83.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_Rifle.uasset'
+[2024.03.03-18.39.27:855][411]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 10.2 sec)
+[2024.03.03-18.39.27:987][411]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2024.03.03-18.39.28:065][411]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.03.03-18.39.28:136][411]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.03.03-18.39.28:148][411]AssetCheck: New page: Asset Save: BP_Rifle
+[2024.03.03-18.39.28:148][411]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Rifle.BP_Rifle
+[2024.03.03-18.39.43:361][735]LogSubobjectSubsystem: Warning: Cannot remove subobject 'DefaultSceneRoot' because it is the default scene root!
+[2024.03.03-18.39.45:496][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-18.39.45:602][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Rifle" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_Rifle.uasset" SILENT=true
+[2024.03.03-18.39.45:605][957]LogSavePackage: Moving output files for package: /Game/BP_Rifle
+[2024.03.03-18.39.45:605][957]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/BP_RifleD317E98547866E26034C379F71D2B385.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/BP_Rifle.uasset'
+[2024.03.03-18.39.45:616][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 10.3 sec)
+[2024.03.03-18.39.45:629][957]AssetCheck: New page: Asset Save: BP_Rifle
+[2024.03.03-18.39.45:629][957]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Rifle.BP_Rifle
+[2024.03.03-18.39.50:707][467]BlueprintLog: New page: Compile BP_Rifle
+[2024.03.03-18.39.50:802][467]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2024.03.03-18.39.56:292][891]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.03-18.39.59:385][ 24]LogLiveCoding: Display:    Creating library D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_7.lib and object D:\Unreal_5_CPP\Simple Shooter\SimpleShooter\Binaries\Win64\UnrealEditor-SimpleShooter.patch_7.exp
+[2024.03.03-18.40.00:065][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2024.03.03-18.40.00:638][ 27]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2024.03.03-18.40.00:638][ 27]LogLiveCoding: Display: Live coding succeeded
