@@ -1573,3 +1573,15 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.03-10.42.30:555][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 834 ms (total: 4.09 sec)
 [2024.03.03-10.42.30:565][733]AssetCheck: New page: Asset Save: Sandbox
 [2024.03.03-10.42.30:565][733]LogContentValidation: Display: Validating /Script/Engine.World /Game/Sandbox.Sandbox
+[2024.03.03-10.42.40:877][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.03-10.42.41:024][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandbox" FILE="../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.03-10.42.41:077][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.03.03-10.42.41:697][923]LogSavePackage: Moving output files for package: /Game/Sandbox
+[2024.03.03-10.42.41:697][923]LogSavePackage: Moving '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Saved/Sandbox8D7DB8AA41B69401C4AAB5BC94B44829.tmp' to '../../../../../Unreal_5_CPP/Simple Shooter/SimpleShooter/Content/Sandbox.umap'
+[2024.03.03-10.42.41:718][923]LogFileHelpers: Saving map 'Sandbox' took 0.696
+[2024.03.03-10.42.41:726][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 848 ms (total: 4.93 sec)
+[2024.03.03-10.42.41:737][923]AssetCheck: New page: Asset Save: Sandbox
+[2024.03.03-10.42.41:737][923]LogContentValidation: Display: Validating /Script/Engine.World /Game/Sandbox.Sandbox
+[2024.03.03-10.42.45:543][222]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.03-10.42.46:969][332]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.03.03-10.42.46:969][332]LogLiveCoding: Display: Live coding succeeded, no code changes detected
